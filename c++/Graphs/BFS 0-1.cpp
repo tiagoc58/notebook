@@ -3,7 +3,7 @@ En caso tal de x=0 se puede reemplazar q0 y q1 por una bicola.
 
 typedef pair<int,int> pii;
 const int N = 1e5+5, inf = 1e9;
-vector<pii> g(N); //se guarda nodo y peso de la arista
+vector<vector<pii>> g(N); //se guarda nodo y peso de la arista
 vector<int> dist(N, inf);
 vector<bool> visited(N, false);
 int n, m;
