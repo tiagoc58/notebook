@@ -1,6 +1,7 @@
 Guarda en primes los numeros primos menores o iguales a MX. Para saber si p es un número primo, hacer: if (!marked[p]).
 
 const int MX = 1e6;
+//usar MX = 46340 en caso de que los numeros quepan en un int
 bool marked[MX+1];
 vector<int> primes;
 // O(MX log(log(MX)))

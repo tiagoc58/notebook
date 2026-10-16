@@ -8,7 +8,7 @@ void fact(ll n, map<ll, int> &f) {
     if (n > 1) f[n]++;
 }
 
-1.2) Version optimizada. Precalcular los primos <= sqrt(n) para iterarlos en el for.
+1.2) Version optimizada. Precalcular los primos <= sqrt(n), con sieve, para iterarlos en el for y agregar la condicion  p*p > n.
 // O(sqrt(n)/log(sqrt(n)))
 
 2.1) Utilizando Pollard Rho y Miller Rabin (agregar funciones).
